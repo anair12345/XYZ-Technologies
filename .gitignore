@@ -1,0 +1,50 @@
+### Java ###
+*.class
+
+### Maven ###
+target/
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.properties
+
+### IDE ###
+.idea/
+*.iml
+*.eml
+*.classpath
+*.project
+.settings/
+.vscode/
+bin/
+
+### Build ###
+*.war
+*.jar
+*.ear
+*.log
+*.tmp
+
+### Dependency Management ###
+**/dependency-reduced-pom.xml
+
+### Maven Wrapper (optional - include if you don't use it) ###
+.mvn/
+mvnw
+mvnw.cmd
+
+### Environment ###
+.env
+*.env
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### venv ###
+myenv/
+
+### minikube ###
+*.deb
+
+prometheus-3.2.1*
